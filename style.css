@@ -1,0 +1,39 @@
+body{
+    background-color: gray;
+}
+div{
+    margin: auto;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;   
+    background-color: brown;
+    animation: box 3s infinite 0s;
+    margin: 200px auto;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+@keyframes box{
+    0%{
+        transform: (0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+div:hover{
+    background-color:rgb(37, 29, 29);
+    color: white;
+    height: 230px;
+    width: 230px;
+}
