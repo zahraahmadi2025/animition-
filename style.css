@@ -24,6 +24,9 @@ div{
     0%{
         transform: (0deg);
     }
+    25%{
+        transform: rotate(360deg);
+    }
     50%{
         transform: rotate(360deg);
     }
